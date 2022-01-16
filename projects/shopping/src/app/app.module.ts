@@ -10,12 +10,13 @@ import { HomeComponent } from './components/home/home.component';
   declarations: [
     AppComponent,
     LoginComponent,
+    RegisterComponent,
     HomeComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [RegisterComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }
