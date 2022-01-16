@@ -5,14 +5,14 @@ import { Component } from '@angular/core';
     template: `
     <div class="container">
     <div id="login">
-    <h2>{{title}}</h2>
+    <h2><span class="bi bi-person"></span>{{title}}</h2>
     <dl>
         <dt>User Name</dt>
-        <dd><input type="text"></dd>
+        <dd><input type="text" class="form-control"></dd>
         <dt>Password</dt>
-        <dd><input type="password"></dd>
+        <dd><input type="password" class="form-control"></dd>
     </dl>
-    <button>Login</button>
+    <button class="btn btn-primary w-100">Login</button>
     
 </div>
 </div>   

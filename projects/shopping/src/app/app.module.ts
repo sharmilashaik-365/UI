@@ -17,6 +17,6 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [LoginComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }
